@@ -1,11 +1,13 @@
 # efub3-springboot-webservice-study
 💚 EFUB 3기 백엔드 "스프링 부트와 AWS로 혼자 구현하는 웹 서비스" 책 완독 스터디입니다 💚
 
+
 ## 스터디 목적
 이 책을 통해 스프링 부트와 AWS로 웹 서비스를 구현할 수 있습니다. 
 JPA와 JUnit 테스트, 그레이들, 머스테치, 스프링 시큐리티를 활용한 소셜 로그인 등으로 애플리케이션을 개발하고, 뒤이어 AWS 인프라의 기본 사용법과 AWS EC2와 RDS를 사용해 서비스가 가능하도록 합니다.
 
 📗 책 구매 링크 : http://www.yes24.com/Product/Goods/83849117
+
 
 ## 스터디 기간
 
@@ -25,6 +27,7 @@ JPA와 JUnit 테스트, 그레이들, 머스테치, 스프링 시큐리티를 �
     - 07장. AWS RDS : README 파일로 정리
     - 08장. EC2 : README 파일로 정리
 
+
 ## 스터디 방법
 
 1. EFUB Organization에 “efub3-sprintboot-webservice-study” 레포지토리를 `fork` 합니다. 
@@ -40,3 +43,8 @@ JPA와 JUnit 테스트, 그레이들, 머스테치, 스프링 시큐리티를 �
     
 5. 원본 저장소로 `Pull Request`를 합니다. 
 6. 스터디장은 매주 토요일에 각 PR 확인 후 Merge를 합니다.
+
+### 벌금
+
+미제출 = 1000원
+지각 = 500원
