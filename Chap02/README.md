@@ -1,1 +1,1 @@
-# springboot-aws-webservice
+https://github.com/rovemin/springboot-aws-study
