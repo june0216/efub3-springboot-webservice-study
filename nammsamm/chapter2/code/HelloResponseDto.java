@@ -1,5 +1,4 @@
 package awsStudy.web.dto;
-
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
