@@ -1,0 +1,12 @@
+.gradle/*
+.idea/*
+
+/YJ-Lee-Kim/.idea
+/YJ-Lee-Kim/chap1/.gradle/*
+/YJ-Lee-Kim/chap2/.gradle/*
+/YJ-Lee-Kim/chap3/.gradle/*
+/YJ-Lee-Kim/chap4/.gradle/*
+/YJ-Lee-Kim/chap5/.gradle/*
+/YJ-Lee-Kim/chap5/src/main/resources/application-oauth.properties
+
+

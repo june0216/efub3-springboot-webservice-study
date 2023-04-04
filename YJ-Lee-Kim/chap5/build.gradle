@@ -1,0 +1,58 @@
+buildscript {
+    ext {
+        springBootVersion = '2.1.7.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+plugins {
+    id 'org.springframework.boot' version '2.6.7' // 스프링 부트 그레이들 플러그인
+    id 'io.spring.dependency-management' version '1.1.0'// 의존성 관리 플러그인 버전
+    id 'java'
+}
+
+group 'efub3'
+version '1.0-SNAPSHOT'
+sourceCompatibility = '11'
+
+//각종 의존성(라이브러리)들을 어떤 원격 저장소에서 받을지를 정한다.
+repositories {
+    mavenCentral()
+}
+
+//프로젝트 개발이 필요한 의존성들을 선언하는 곳이다.
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    // 스프링 시큐리티 테스트를 위한 여러 도구를 지원하는 라이브러리
+    testImplementation("org.springframework.security:spring-security-test")
+
+    // 웹에 관련된 의존성 관리. json이나 tomcat 등이 들어있다.
+    implementation('org.springframework.boot:spring-boot-starter-web')
+    // 스프링 부트용 Spring Data Jpa 추상화 라이브러리. 스프링 부트 버전에 맞춰 자동으로 JPA 관련 라이브러리들의 버전을 관리.
+    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+    // h2: 인메모리 관계형 데이터베이스. 별도의 설치 없이 프로젝트 의존성만으로 관리 가능.
+    implementation('com.h2database:h2')
+    // 머스테치 스타터 의존성
+    implementation('org.springframework.boot:spring-boot-starter-mustache')
+    // 스프링 시큐리티 관련 의존성. 소셜 로그인 등 클라이언트 입장에서 소셜 기능 구현 시 필요한 의존성.
+    implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
+    // 데이터베이스를 사용하기 위한 의존성
+    implementation('org.springframework.session:spring-session-jdbc')
+
+    // 롬복 추가
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    // 테스트를 위한 라이브러리가 들어있다.
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
+}
+
+//Junit5를 사용하기 위해서는 필수로 선언
+test {
+    useJUnitPlatform()
+}
