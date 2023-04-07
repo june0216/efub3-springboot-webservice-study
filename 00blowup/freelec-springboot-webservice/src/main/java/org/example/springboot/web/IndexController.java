@@ -1,5 +1,6 @@
 package org.example.springboot.web;
 
+import org.example.springboot.config.auth.LoginUser;
 import org.example.springboot.config.auth.dto.SessionUser;
 import org.example.springboot.domain.posts.PostsService;
 import org.example.springboot.web.dto.PostsResponseDto;
@@ -24,11 +25,9 @@ public class IndexController {
 
 
     @GetMapping("/")
-    public String index(Model model) {
+    public String index(Model model, @LoginUser SessionUser user) { // LoginUser 어노테이션 적용 완료
         model.addAttribute("posts", postsService.findAllDesc());
-
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
-
+        
         if(user != null) {
             model.addAttribute("userName", user.getName());
         }
