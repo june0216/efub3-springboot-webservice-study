@@ -40,4 +40,7 @@ dependencies {
 
     // Spring security
     implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
+
+    // JDBC
+    implementation('org.springframework.session:spring-session-jdbc')
 }
