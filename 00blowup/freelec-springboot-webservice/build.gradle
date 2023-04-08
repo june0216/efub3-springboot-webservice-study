@@ -34,4 +34,13 @@ dependencies {
     implementation('com.h2database:h2')
 
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+
+    // mustache
+    implementation('org.springframework.boot:spring-boot-starter-mustache')
+
+    // Spring security
+    implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
+
+    // JDBC
+    implementation('org.springframework.session:spring-session-jdbc')
 }
