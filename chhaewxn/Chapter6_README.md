@@ -41,6 +41,7 @@ Ex) AWS Elastic Beanstalk, Window Azure, Google App Engine
 - 가장 포괄적인 형식의 클라우드 컴퓨팅 서비스로, 모든 애플리케이션은 제공업체가 관리, 웹 브라우저를 통해 제공
 Ex) Google Workspace, Dropbox, NetFlix(구독의 방식), I-cloud
 
+
 ## AWS - EC2 & RDS
 ### AWS(Amazon Web Service)
 : 전 세계적으로 분포한 데이터 센터에서 200개가 넘는 완벽한 기능의 서비스를 제공하며 세계적으로 가장 포괄적이며 널리 채택되고 있는 클라우드
