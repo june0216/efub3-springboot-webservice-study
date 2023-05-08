@@ -28,7 +28,7 @@
 
 클라우드 컴퓨팅은, 클라우드 컴퓨팅을 제공하는 업체가 어느 범위까지를 서비스로 제공하는지에 따라 세 가지로 나뉜다. 다이어그램으로 표현하면 다음과 같다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/31e780b3-54e3-45b1-b6bd-ff3749c2e21c/Untitled.png)
+![Untitled](https://i.imgur.com/SRSNJfc.png)
 
 ---
 
