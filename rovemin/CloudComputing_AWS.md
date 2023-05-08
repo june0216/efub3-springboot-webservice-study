@@ -9,7 +9,7 @@
 따라서 사용자의 요구에 따라 탄력적으로 자가 관리되므로 사용자는 리소스에 대한 관리가 필요 없다.
 
 ## 클라우드 컴퓨팅 종류<br>
-<img src="/img/cloud_computing.jpg"/>
+<img src="/rovemin/img/cloud_computing.jpg"/>
 
 IasS (Infrastructure as a Service)
 - IT 서비스 구성을 위한 인프라 제공
