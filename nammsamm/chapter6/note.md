@@ -13,7 +13,7 @@
 
 ### 클라우드 컴퓨팅 종류
 
-1. `**IaaS**`
+1. `*IaaS*`
   
   **Infrastructure as a service**
   
