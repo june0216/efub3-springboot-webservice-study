@@ -2,7 +2,8 @@
 
 ## AWS 회원 가입
 https://aws.amazon.com/ko/ 에서 `AWS 계정 생성` 또는 `무료로 시작` 버튼을 클릭하여 회원 가입을 진행한다.
-![스크린샷 2023-05-08 143058.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20143058.png)
+
+<img width="461" alt="스크린샷 2023-05-08 143058" src="https://user-images.githubusercontent.com/121334671/237008945-6bffb471-e955-4532-95be-47d47891e99b.png">
 이때, 무료 기본 플랜을 선택한다.
 
 ## EC2 인스턴스 생성하기
@@ -11,33 +12,43 @@ EC2는 AWS에서 제공하는 성능, 용량 등을 유동적으로 사용할 �
 <br>
 리전을 서울로 변경한 후, 검색창에서 `EC2`를 입력하여 해당 서비스를 선택한다.<br>
 그리고 `인스턴스 시작` 버튼을 눌러 인스턴스를 생성하는 페이지에 접속한다.
-![스크린샷 2023-05-08 144645.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20144645.png)
+
+<img width="635" alt="스크린샷 2023-05-08 144645" src="https://user-images.githubusercontent.com/121334671/237009047-7a6ba24c-fa41-4094-a48c-5011dee9882f.png">
 
 
 아래와 같이 설정한다.
-![스크린샷 2023-05-08 144750.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20144750.png)
-![스크린샷 2023-05-08 145213.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20145213.png)
-![스크린샷 2023-05-08 145121.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20145121.png)
-![스크린샷 2023-05-08 145307.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20145307.png)
-![스크린샷 2023-05-08 145315.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20145315.png)
-![스크린샷 2023-05-08 145338.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20145338.png)
-![스크린샷 2023-05-08 145346.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20145346.png)
-![스크린샷 2023-05-08 145353.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20145353.png)
+
+<img width="640" alt="스크린샷 2023-05-08 144750" src="https://user-images.githubusercontent.com/121334671/237009077-b1874184-7cf6-4a08-93db-38abd97c03a0.png">
+<img width="640" alt="스크린샷 2023-05-08 145213" src="https://user-images.githubusercontent.com/121334671/237009297-92afe736-0421-42e8-ab3a-582e2cdcd21d.png">
+
+<img width="640" alt="스크린샷 2023-05-08 145121" src="https://user-images.githubusercontent.com/121334671/237009096-d5a7d45c-c6ce-454c-8111-77a723a6a7bf.png">
+<img width="640" alt="스크린샷 2023-05-08 145307" src="https://user-images.githubusercontent.com/121334671/237009335-9268be32-d3ad-495c-992a-0876b1ed4a46.png">
+<img width="640" alt="스크린샷 2023-05-08 145315" src="https://user-images.githubusercontent.com/121334671/237009377-96f93fc6-f903-41bf-af93-c489663597fe.png">
+<img width="640" alt="스크린샷 2023-05-08 145338" src="https://user-images.githubusercontent.com/121334671/237009416-f55c3beb-9ca6-4684-b4e7-1be2e63ba886.png">
+<img width="640" alt="스크린샷 2023-05-08 145346" src="https://user-images.githubusercontent.com/121334671/237009435-0cab6a07-b7c3-4009-a7ff-35dc50c5ccdb.png">
+<img width="640" alt="스크린샷 2023-05-08 145353" src="https://user-images.githubusercontent.com/121334671/237009452-21b511f6-9cf3-4cfc-a008-c6b073f0af6a.png">
 
 `인스턴스 시작` 버튼을 눌러 생성 작업을 완료한다.
+
+<br>
 
 ## 탄력적 IP 주소 생성 및 연결
 AWS의 고정 IP를 탄력적 IP라고 한다.
 <br>
 왼쪽 카테고리에서 `탄력적 IP`를 눌러 선택하고 `탄력적 IP 주소 할당` 버튼을 클릭한다.
-![스크린샷 2023-05-08 145508.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20145508.png)
+
+<img width="640" alt="스크린샷 2023-05-08 145508" src="https://user-images.githubusercontent.com/121334671/237009566-4587de51-a3d0-4a83-b137-b2f174c37477.png">
 
 `할당` 버튼을 눌러 생성을 완료한다.
-![스크린샷 2023-05-08 145532.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20145532.png)
+
+<img width="640" alt="스크린샷 2023-05-08 145532" src="https://user-images.githubusercontent.com/121334671/237009598-70921dbc-ee3e-45cd-bcaf-93ac727560b3.png">
+
 
 탄력적 IP 주소를 방금 생성한 인스턴스와 연결한다.
-![스크린샷 2023-05-08 145553.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20145553.png)
-![스크린샷 2023-05-08 145608.png](..%2F..%2F..%2F..%2FOneDrive%2F%EC%82%AC%EC%A7%84%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202023-05-08%20145608.png)
+
+<img width="639" alt="스크린샷 2023-05-08 145608" src="https://user-images.githubusercontent.com/121334671/237009632-2fa7aaf1-0a1a-4484-b127-96c0ac2fabb4.png">
+
+<br>
 
 ## EC2 서버에 접속하기
 ### puttygen 
